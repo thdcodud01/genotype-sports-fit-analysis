@@ -1,0 +1,45 @@
+# ── 데이터 파일: 기본적으로 전부 제외 ──────────────────────
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.parquet
+*.pkl
+*.pickle
+*.json
+*.zip
+
+# 공개용 합성 데이터와 합성 참조표만 예외로 포함
+!data/sample/*.csv
+!api/ref/**/*.csv
+!api/ref/**/settings.json
+
+# 생성물 (스크립트로 다시 만들 수 있음)
+api/data/
+results/
+
+# ── 민감 파일 ────────────────────────────────────────
+.env
+.env.*
+*.pem
+*.key
+secrets*
+input_data/
+raw/
+private/
+
+# ── 파이썬 ──────────────────────────────────────────
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# ── 편집기·OS ────────────────────────────────────────
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,7 @@
+{
+  "injury_penalty_lambda": 0.3,
+  "top_n": 3,
+  "strength_min_weight": 2,
+  "caution_min_weight": 1,
+  "caution_min_risk": 60
+}

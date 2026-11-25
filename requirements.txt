@@ -1,0 +1,11 @@
+# 분석 스크립트
+pandas>=2.0
+numpy>=1.24
+
+# API
+fastapi>=0.115
+uvicorn[standard]>=0.30
+pydantic>=2.7
+
+# 선택: 샘플 표를 .xlsx로 넣을 때만 필요 (api/scripts/table_to_json.py)
+openpyxl>=3.1
